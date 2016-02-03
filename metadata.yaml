@@ -1,0 +1,15 @@
+name: fortycloud
+summary: Cloud Infrastructure Security Broker
+maintainers:
+    - Matthew Bruzek <matthew.bruzek@ubuntu.com>
+description: |
+  A Cloud Infrastructure Security Broker compliments network security elements
+  that do not come natively with your cloud platform, such as Firewall, IAM,
+  VPN and 2FA.
+tags:
+  - infrastructure
+  - security
+subordinate: false
+requires:
+   etcd:
+     interface: etcd
